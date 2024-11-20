@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+        
+        input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+        }
+        
+        input[type=submit] {
+          background-color: #04AA6D;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: #45a049;
+        }
+        
+        .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+        }
+        </style>s
+    <title>SHOP SHOES</title>
+</head>
+<!-- start of the header  -->
+<section>
+    <body>
+        <header>
+            <h1 style="color: goldenrod; text-align: center; margin-top: 50px; font-size: xxx-large;">CODSOFT</h1>
+            <h3><marquee behavior="" direction=""></marquee></h3>
+            <table style="padding-left: 520px;">
+                <tr>
+                    <th style="padding-right: 50px;"><a href="index.html">Home</a></th>
+                    <th style="padding-right: 50px;"><a href="contactus.html">Contact Us</a></th>
+                    <th style="padding-right: 50px;"><a href="signu.html">Sign-up</a></th>
+                   <!----<th style="padding-right: 50px;">Offers</th>
+                    <th style="padding-right: 50px;">Collection</th>
+                    <th style="padding-right: 50px;">About</th>-->
+                </tr>
+            </table>
+        </header>
+    </body>
+</section>
+<!-- end of the header -->
+<hr>
+<!-- start main body of the content -->
+<section>
+    <body>
+        <header>
+            <main>
+                <h3 style="text-align: center;">Contact Form</h3>
+                <div class="container">
+                <form action="contactus.html">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="india">India</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit" style="background-color: yellowgreen;">
+                </form>
+                </div>
+            </main>
+        </header>
+    </body>
+</section>
+<!-- end main body of the content -->
+<hr>
+<!-- start of the footer  -->
+<section>
+
+    <body>
+        <header>
+            <table style="background-color: black; width: 80%; margin-left: 150px;">
+                <tr>
+                    <th><img src="images/footer.jpg" alt=""></th>
+                    <th>
+                        <a href="about.html" style="color: goldenrod">About Us</a><br><br><br>
+                        <a href="contactus.html" style="color: goldenrod;">Contact Us</a><br><br><br>
+                        <a href="" style="color: goldenrod">Reviews</a>
+                    </th>
+                    <th>
+                        <form action="review.html">
+                            <label for="name" style="color: aliceblue;">Name</label><br>
+                            <input type="text"><br>
+                            <label for="name" style="color: aliceblue;">Email</label><br>
+                            <input type="text"><br>
+                            <label for="text" style="color: aliceblue;">Write review</label><br>    
+                            <textarea name="text" id="" cols="20" rows="3"></textarea> <br>
+                            <button>Submit</button>
+                        </form>
+                    </th>
+                </tr>
+            </table>
+        </header>
+    </body>
+</section>
+<!-- end of the footer -->
+</html>
